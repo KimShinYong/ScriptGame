@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mini Wordle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <div class="game">
+        <h1>WORDLE</h1>
+        <div class="message" id="message"></div>
+        <div class="board" id="board"></div>
+        <div class="keyboard" id="keyboard"></div>
+        <button id="restartBtn" class="restart hidden">Restart</button>
+      </div>
+
+      <aside class="sidebar">
+        <h2>Word History</h2>
+        <p class="sidebar-desc">지금까지 나온 정답 단어들이 여기 쌓여요.</p>
+        <ul id="answerList" class="answer-list"></ul>
+      </aside>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
